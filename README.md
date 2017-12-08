@@ -1,11 +1,12 @@
-tarball-extract
+tarball-extract-improve
 ===============
+> This is a forked project from [tarball-extract](https://github.com/matsieftw/tarball-extract), changing the outdated `wget` package to `node-wget-promise`.
 
 A simple tarball download and extraction lib for node.
 
 ## Install
 
-    npm install tarball-extract
+    npm install tarball-extract-improve
 
 ## method: extractTarball(sourceFile, destination, callback)
 Extracts a tar file using **node-tar**. If the file ends in a **.tgz** or a **tar.gz** gzip will be used to deflate it before passing the stream to tar.
