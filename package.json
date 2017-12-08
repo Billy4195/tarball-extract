@@ -1,8 +1,11 @@
 {
-  "name": "tarball-extract",
+  "name": "tarball-extract-improve",
   "description": "A simple tarball download and extraction lib for node.",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "author": "Mattie Kenny <hi@matsie.net>",
+  "contributors": [
+    "Billy Su <g4691821@gmail.com>"
+  ],
   "keywords": [
     "tar",
     "tarball"
@@ -10,7 +13,7 @@
   "main": "tarball.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/matsieftw/tarball-extract.git"
+    "url": "git://github.com/billy4195/tarball-extract-improve.git"
   },
   "dependencies": {
     "node-wget-promise": "^0.1.3",
